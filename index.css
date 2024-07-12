@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+nav.options li a :hover{
+    color: white;
+}
+.options{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: .3s;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.shutterstock.com/shutterstock/photos/2036186204/display_1500/stock-photo-diverse-school-children-students-build-robotic-cars-using-computers-and-coding-happy-multiethnic-2036186204.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:black;
+    font-style: bold;
+
+}
+.critical-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 100px solid bisque;
+}
+.section2{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://cdn.wallpapersafari.com/30/96/qvx26O.jpg);
+    padding: 20px 20px;
+    border-radius: 3rem;
+    border-color: brown;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: chocolate;
+    font-style: italic;
+}
+.critical-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: chartreuse;
+}
+.logical{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 100px solid bisque;
+}
+.section3{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://i.pinimg.com/236x/36/6f/4f/366f4ffd4e96ce59256a8c69e541fcb2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 20px 20px;
+    border-radius: 3rem;
+    border-color: brown;
+}
+.section3-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.section4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/WhatsApp\ Image\ 2024-07-03\ at\ 9.33.58\ PM.jpeg");
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+}
+@media screen  and (max-width:768px) {
+    .section1,.section2,.section3{
+        width: 95%;
+        flex-direction: column;
+    }
+   
+}
+
